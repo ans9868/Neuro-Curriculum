@@ -52,6 +52,12 @@ An 8-week self-guided study plan based on Wulfram Gerstner's **Neuronal Dynamics
   - [1.4 Limitations of the Leaky Integrate-and-Fire Model](https://neuronaldynamics.epfl.ch/online/Ch1.S4.html)
   - [1.5 What Can We Expect from Integrate-And-Fire Models?](https://neuronaldynamics.epfl.ch/online/Ch1.S5.html)
 
+### Python Exercise
+
+| Exercise | Description | Link |
+|----------|-------------|------|
+| **Leaky Integrate-and-Fire** | Simulate LIF neuron, inject currents, measure firing rates, explore f-I curves | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/leaky-integrate-and-fire.html) |
+
 ### Key Concepts
 - Membrane potential and resting potential
 - RC circuit analogy
@@ -80,6 +86,12 @@ An 8-week self-guided study plan based on Wulfram Gerstner's **Neuronal Dynamics
   - [2.1 Equilibrium Potential](https://neuronaldynamics.epfl.ch/online/Ch2.S1.html)
   - [2.2 Hodgkin-Huxley Model](https://neuronaldynamics.epfl.ch/online/Ch2.S2.html)
   - [2.3 The Zoo of Ion Channels](https://neuronaldynamics.epfl.ch/online/Ch2.S3.html)
+
+### Python Exercise
+
+| Exercise | Description | Link |
+|----------|-------------|------|
+| **Hodgkin-Huxley Model** | Simulate HH neuron, explore gating dynamics, modify channel densities, find threshold currents | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/hodgkin-huxley.html) |
 
 ### Key Concepts
 - Nernst equation and reversal potentials
@@ -111,6 +123,12 @@ An 8-week self-guided study plan based on Wulfram Gerstner's **Neuronal Dynamics
   - [3.2 Spatial Structure: The Dendritic Tree](https://neuronaldynamics.epfl.ch/online/Ch3.S2.html)
   - [3.3 Spatial Structure: Axons](https://neuronaldynamics.epfl.ch/online/Ch3.S3.html)
   - [3.4 Compartmental Models](https://neuronaldynamics.epfl.ch/online/Ch3.S4.html)
+
+### Python Exercise
+
+| Exercise | Description | Link |
+|----------|-------------|------|
+| **Passive Cable** | Simulate passive dendrite, explore electrotonic propagation, compare myelinated vs unmyelinated | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/passive-cable.html) |
 
 ### Key Concepts
 - Excitatory vs inhibitory synapses (AMPA, NMDA, GABA)
@@ -148,6 +166,14 @@ An 8-week self-guided study plan based on Wulfram Gerstner's **Neuronal Dynamics
   - [4.4 Type I and Type II Neuron Models](https://neuronaldynamics.epfl.ch/online/Ch4.S4.html)
   - [4.5 Threshold and Excitability](https://neuronaldynamics.epfl.ch/online/Ch4.S5.html)
 - [Chapter 5: Nonlinear Integrate-and-Fire Models](https://neuronaldynamics.epfl.ch/online/Ch5.html)
+
+### Python Exercises
+
+| Exercise | Description | Link |
+|----------|-------------|------|
+| **Phase Plane Analysis** | Plot nullclines, find fixed points, analyze FitzHugh-Nagumo dynamics, compute eigenvalues | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/phase-plane-analysis.html) |
+| **Type I and Type II Neurons** | Compare f-I curves, identify threshold behaviors, classify neuron types | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/neuron-type.html) |
+| **Exponential Integrate-and-Fire** | Simulate EIF model, find rheobase current, plot strength-duration curve | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/exponential-integrate-and-fire.html) |
 
 ### Key Concepts
 - Nullclines and fixed points
@@ -196,6 +222,10 @@ An 8-week self-guided study plan based on Wulfram Gerstner's **Neuronal Dynamics
 - [Chapter 8: Noisy Input Models](https://neuronaldynamics.epfl.ch/online/Ch8.html)
 - [Chapter 9: Noisy Output - Escape Rate and Soft Threshold](https://neuronaldynamics.epfl.ch/online/Ch9.html)
 
+### Python Exercise
+
+*Week 5 focuses on theoretical concepts (Poisson processes, noise statistics). No dedicated exercise module, but concepts are applied in later exercises.*
+
 ### Key Concepts
 - Poisson processes and spike train statistics
 - Fano factor and coefficient of variation (CV)
@@ -231,6 +261,12 @@ An 8-week self-guided study plan based on Wulfram Gerstner's **Neuronal Dynamics
 - [Chapter 10: Estimating Parameters of Probabilistic Neuron Models](https://neuronaldynamics.epfl.ch/online/Ch10.html)
 - [Chapter 11: Encoding and Decoding with Stochastic Neuron Models](https://neuronaldynamics.epfl.ch/online/Ch11.html)
   - [11.3 Decoding](https://neuronaldynamics.epfl.ch/online/Ch11.S3.html) ← **Key for BCI applications**
+
+### Python Exercise
+
+| Exercise | Description | Link |
+|----------|-------------|------|
+| **AdEx Model** | Explore adaptive exponential IF, generate diverse firing patterns (bursting, adapting, delayed), analyze phase plane | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/adex-model.html) |
 
 ### Key Concepts
 - Adaptive exponential integrate-and-fire (AdEx) model
@@ -276,6 +312,12 @@ An 8-week self-guided study plan based on Wulfram Gerstner's **Neuronal Dynamics
   - [12.3 Connectivity Schemes](https://neuronaldynamics.epfl.ch/online/Ch12.S3.html)
   - [12.4 From Microscopic to Macroscopic](https://neuronaldynamics.epfl.ch/online/Ch12.S4.html)
 - [Chapter 13: Continuity Equation and the Fokker-Planck Approach](https://neuronaldynamics.epfl.ch/online/Ch13.html)
+
+### Python Exercise
+
+| Exercise | Description | Link |
+|----------|-------------|------|
+| **Brunel Network** | Simulate sparse LIF network, explore AI/SR/SI states, vary E/I balance, analyze population dynamics | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/brunel-network.html) |
 
 ### Key Concepts
 - Population activity and mean-field theory
@@ -330,6 +372,13 @@ An 8-week self-guided study plan based on Wulfram Gerstner's **Neuronal Dynamics
 - [Chapter 17: Synaptic Plasticity and Learning](https://neuronaldynamics.epfl.ch/online/Ch17.html) *(Note: Chapter numbering may vary in online version)*
 - [Chapter 19: Decision Making](https://neuronaldynamics.epfl.ch/online/Ch19.html)
 
+### Python Exercises
+
+| Exercise | Description | Link |
+|----------|-------------|------|
+| **Hopfield Network** | Implement associative memory, store/retrieve patterns, analyze capacity limits, visualize weight matrices | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/hopfield-network.html) |
+| **Perceptual Decision Making** | Simulate competitive attractor dynamics, analyze reaction times, explore decision boundaries | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/perceptual-decision-making.html) |
+
 ### Key Concepts
 - Hopfield networks and attractor dynamics
 - Energy landscape and memory retrieval
@@ -364,6 +413,8 @@ An 8-week self-guided study plan based on Wulfram Gerstner's **Neuronal Dynamics
 | 5 | Solution Types | 8 min | [Watch](https://youtu.be/iEQxmhs3e0w) |
 | 6 | Perception | 10 min | [Watch](https://youtu.be/Vh93h77B8rk) |
 
+**Python Exercise:** [Spatial Working Memory](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/spatial-working-memory.html) — Simulate ring attractor, explore bump dynamics, model head direction cells
+
 ### Video Lecture 13: Decision Models - Competitive Dynamics (66 min)
 
 | Part | Topic | Duration | Link |
@@ -397,7 +448,7 @@ An 8-week self-guided study plan based on Wulfram Gerstner's **Neuronal Dynamics
 
 ---
 
-## Python Exercises
+## Python Exercises Summary
 
 Install the exercise package:
 ```bash
@@ -405,6 +456,22 @@ pip install neurodynex3
 ```
 
 Documentation: [neuronaldynamics-exercises.readthedocs.io](https://neuronaldynamics-exercises.readthedocs.io/)
+
+### Complete Exercise List
+
+| Week | Exercise | Chapter | Link |
+|------|----------|---------|------|
+| 1 | Leaky Integrate-and-Fire | Ch 1 | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/leaky-integrate-and-fire.html) |
+| 2 | Hodgkin-Huxley Model | Ch 2 | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/hodgkin-huxley.html) |
+| 3 | Passive Cable | Ch 3 | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/passive-cable.html) |
+| 4 | Phase Plane Analysis | Ch 4 | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/phase-plane-analysis.html) |
+| 4 | Type I and Type II Neurons | Ch 4 | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/neuron-type.html) |
+| 4 | Exponential Integrate-and-Fire | Ch 5 | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/exponential-integrate-and-fire.html) |
+| 6 | AdEx Model | Ch 6 | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/adex-model.html) |
+| 7 | Brunel Network (LIF) | Ch 13 | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/brunel-network.html) |
+| 8 | Hopfield Network | Ch 17 | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/hopfield-network.html) |
+| 8 | Perceptual Decision Making | Ch 16 | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/perceptual-decision-making.html) |
+| Bonus | Spatial Working Memory | Ch 18 | [Exercise](https://neuronaldynamics-exercises.readthedocs.io/en/latest/exercises/spatial-working-memory.html) |
 
 ---
 
